@@ -93,7 +93,9 @@ class CalendarCrawler
           start_time: start_datetime,
           end_time: end_datetime,
           participants: participants,
-          user_id: @user_id
+          user_id: @user_id,
+          notify: true,
+          notified: false
       )
     end
   end
