@@ -1,0 +1,18 @@
+
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: Meetings_development
+  pool: 5
+  username: vahur
+  password:
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: Meetings_test
+  pool: 5
+  username: vahur
+  password:

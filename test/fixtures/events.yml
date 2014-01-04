@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyText
+  participants: 
+  start_time: 2014-01-03 17:15:52
+  end_time: 2014-01-03 17:15:52
+  user_id: 1
+  google_id: MyString
+
+two:
+  title: MyString
+  description: MyText
+  participants: 
+  start_time: 2014-01-03 17:15:52
+  end_time: 2014-01-03 17:15:52
+  user_id: 1
+  google_id: MyString

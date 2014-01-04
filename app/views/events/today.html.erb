@@ -1,0 +1,17 @@
+<h1>Upcoming Events</h1>
+
+<%= form_tag notify_events_path, method: :put do  %>
+    <ol>
+      <% @events.each do |event| %>
+          <li>
+            <%= hidden_field_tag "events[#{event.id}][id]", event.id %>
+            <%= check_box_tag "events[#{event.id}][notify]", event.notify, event.notify %>
+            <%= label_tag "events[#{event.id}][notify]", event.title %>
+          </li>
+      <% end%>
+
+      <li><%= submit_tag 'Save' %></li>
+    </ol>
+
+<% end %>
+

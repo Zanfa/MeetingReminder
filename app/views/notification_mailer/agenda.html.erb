@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Upcoming meetings</h1>
+<ul>
+  <% @events.each do |event| %>
+  <li><%= event.title %></li>
+  <% end %>
+</ul>
+
+To update notification settings for individual events, <%= link_to 'Click Here', today_events_url(url:'test.com') %>.
+
+</body>
+</html>
